@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: pets
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: pets
+    spec:
+      containers:
+      - name: pets
+        image: datawire/pets:1.2
+        imagePullPolicy: Always
+        ports:
+        - name: http-api
+          containerPort: 5000
