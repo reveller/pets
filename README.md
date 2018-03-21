@@ -3,8 +3,8 @@
 Supplemental material for Kubernetes Training.
 
 ```
-kubectl apply -f https://raw.githubusercontent.com/datawire/pets/master/kubernetes/pets-deployment.yaml
-kubectl apply -f https://raw.githubusercontent.com/datawire/pets/master/kubernetes/pets-service.yaml
+kubectl apply -f https://raw.githubusercontent.com/reveller/pets/master/kubernetes/pets-deployment.yaml
+kubectl apply -f https://raw.githubusercontent.com/reveller/pets/master/kubernetes/pets-service.yaml
 ```
 
 # License

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pets
-        image: datawire/pets:1.2
+        image: reveller/pets:1.3
         imagePullPolicy: Always
         ports:
         - name: http-api
